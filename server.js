@@ -51,15 +51,15 @@ insStr = insStr + "'"+request.body.month+"', ";
 insStr = insStr + parseInt(request.body.year) + ")";
 console.log(insStr)
 
-db.run(insStr, function(err) {
-  if (err) {
-    return console.error("Database error: " + err.message);
-  }
-  console.log("Row inserted successfully!");
-});
-  
-//db.run(insStr);
+//db.run(insStr, function(err) {
+  //if (err) {
+    //return console.error("Database error: " + err.message);
+ // }
+ // console.log("Row inserted successfully!");
 //});
+  
+db.run(insStr);
+});
 
 // Process the HTTP GET request for /getData
 app.get('/getData', function(request, response) {
