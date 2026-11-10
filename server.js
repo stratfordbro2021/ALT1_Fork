@@ -45,13 +45,21 @@ console.log("In app.post (/putData)");
 // build up insert statement. For example:
 // insert into person(first_name, surname) values ('Joe', 'Bloggs')
 let insStr = "insert into BOOKINGS(name, day, month, year) values (";
-insStr = insStr + "\'"+request.body.name+"\', ";
-insStr = insStr + "\'"+request.body.day+"\') ";
-insStr = insStr + "\'"+request.body.month+"\') ";
-insStr = insStr + "\'"+request.body.year+"\') ";
+insStr = insStr + "'"+request.body.name+"', ";
+insStr = insStr + parseInt(request.body.day) + ", ";
+insStr = insStr + "'"+request.body.month+"', ";
+insStr = insStr + parseInt(request.body.year) + ")";
 console.log(insStr)
-db.run(insStr);
+
+db.run(insStr, function(err) {
+  if (err) {
+    return console.error("Database error: " + err.message);
+  }
+  console.log("Row inserted successfully!");
 });
+  
+//db.run(insStr);
+//});
 
 // Process the HTTP GET request for /getData
 app.get('/getData', function(request, response) {
