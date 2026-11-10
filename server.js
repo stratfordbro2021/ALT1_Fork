@@ -49,6 +49,7 @@ insStr = insStr + "\'"+request.body.name+"\', ";
 insStr = insStr + "\'"+request.body.day+"\') ";
 insStr = insStr + "\'"+request.body.month+"\') ";
 insStr = insStr + "\'"+request.body.year+"\') ";
+console.log(insStr)
 db.run(insStr);
 });
 
