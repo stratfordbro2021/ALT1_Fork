@@ -10,12 +10,12 @@ body {
   margin: 2em;
 }
 html {
-  background-color:#FFCC99;
+  background-color:##98A869;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: ##636b2f;
 }
 
 .bold {
@@ -29,7 +29,7 @@ p {
 form {
   margin-bottom: 25px;
   padding: 15px;
-  background-color: cyan;
+  background-color: #568203;
   display: inline-block;
   width: 100%;
   max-width: 340px;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-  background-color: yellow;
+  background-color: #98A869;
 }
 
 button:active {
