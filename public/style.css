@@ -8,6 +8,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-image: url("Menu");
 }
 html {
   background-color:#98A869;
