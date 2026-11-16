@@ -26,8 +26,12 @@ h1 {
   color: #636b2f;
 }
 
-.bold {
+h3 {
   font-style: italic;
+  color: #636b2f;
+}
+
+.bold {
   font-weight: bold;
 }
 
