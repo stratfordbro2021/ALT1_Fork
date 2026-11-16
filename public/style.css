@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: arial, helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   min-height: 100vh;
 
@@ -36,20 +36,23 @@ p {
 }
 
 form {
-  margin-bottom: 25px;
+  margin: 0 auto 25px auto;
   padding: 15px;
   background-color: #568203;
+
   display: block;
-  width: 150%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 340px;
+
   border-radius: 10px;
   text-align: center;
 }
 
 ul {
   display: inline-block;
-  text-align: center;
+  text-align: left;
   padding-left: 20px;
+  margin: 0 auto;
 }
 
 input {
