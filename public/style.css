@@ -37,13 +37,11 @@ p {
 
 form {
   margin: 0 auto 25px auto;
-  padding: 15px;
+  padding: 20px;
   background-color: #568203;
-
   display: block;
   width: 100%;
-  max-width: 340px;
-
+  max-width: 450px;
   border-radius: 10px;
   text-align: center;
 }
