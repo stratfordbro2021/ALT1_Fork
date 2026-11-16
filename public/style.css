@@ -19,8 +19,8 @@ h1 {
 }
 
 .bold {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
 
 p {
