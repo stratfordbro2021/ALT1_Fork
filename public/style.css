@@ -43,12 +43,12 @@ form {
   width: 150%;
   max-width: 500px;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 ul {
   display: inline-block;
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
 }
 
