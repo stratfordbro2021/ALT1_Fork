@@ -49,9 +49,9 @@ input {
 button {
   font-size: 16px;
   border-radius: 3px;
-  background-color: #A8C3BC;
+  background-color: white;
   border: 1px #2e6f40;
-  box-shadow: 2px 2px teal;
+  box-shadow: 2px 2px #2c5f34;
   cursor: pointer;
 }
 
